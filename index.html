@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="container-header">
+            <div id="container-header-navbar">
+                MOVIE PROJECT
+            </div>
+            <div class="card-body" id="container-header-main">
+                <form id="movie-form">
+                    <div id="container-header-inputs">
+                        <input type="text" class="container-header-main-inputs" name="title" id="header-main-movie-name"
+                            placeholder="Movie Name">
+                        <input type="text" class="container-header-main-inputs" name="director"
+                            id="header-main-director-name" placeholder="Director Name">
+                        <input type="text" class="container-header-main-inputs" name="url" id="header-main-advert-name"
+                            placeholder="Movie Poster Address">
+                    </div>
+                    <button type="submit" class="container-header-button" id="header-button">ADD MOVIE</button>
+                </form>
+                <hr>
+            </div>
+        </div>
+        <div class="card-body" id="container-body">
+            <hr>
+            <h5 class="card-title" id="movie-title">MOVIES</h5>
+            </hr>
+            <table class="container-body-table">
+                <thead>
+                    <tr>
+                        <th scope="col" class="body-table-text">POSTER OF MOVIE</th>
+                        <th scope="col" class="body-table-text">NAME OF MOVIE</th>
+                        <th scope="col" class="body-table-text">DIRECTOR OF MOVIE</th>
+                    </tr>
+                </thead>
+                <tbody id="movies"> </tbody>
+            </table>
+            <a id="clear-movies" class="clear-movies" href="#">CLEAR ALL MOVIES</a>
+        </div>
+    </div>
+
+    <script src="movie.js"></script>
+    <script src="storage.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

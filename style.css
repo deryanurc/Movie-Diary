@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+}
+
+#container {
+    width: 820px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#container-header {
+    background-color: rgb(146, 199, 235);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+#container-header-navbar {
+    height: 30px;
+    margin: 0 auto;
+}
+
+#container-header-inputs {
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+}
+
+.container-header-main-inputs {
+    width: 250px;
+}
+
+#header-button {
+    width: 150px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#container-body {
+    width: 820px;
+    height: 500px;
+}
+
+#movie-title {
+    width: 200px;
+    height: 30px;
+    font-size: x-large;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.container-body-table {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: white;
+    background-color: black;
+    width: 850px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.body-table-text{
+    width: 250px;
+    height: 30px;
+    font-weight: 500;
+    font-size:large;
+    
+   
+}
+#clear-movies {
+    display: flex;
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    width: 250px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.text-1 {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.alert {
+    background-color: red;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.success {
+    background-color: green;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+}
